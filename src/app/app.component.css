@@ -1,0 +1,37 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div>h1{
+    text-align: center;
+}
+.Dashboard{
+    width:100vw;
+}
+ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 1.5rem;  /* spacing between cards */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  background-color: aliceblue;
+  height: 30vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
