@@ -21,6 +21,7 @@
 <div>
   <h1>Student Dashboard</h1>
   <div class="Dashboard">
+    <p *ngIf="students.length===0">No Students were Found</p>
     <ul>
       <li *ngFor="let i of students">
         <p>👨‍🎓</p>
